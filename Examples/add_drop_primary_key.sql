@@ -1,0 +1,7 @@
+USE test;
+
+ALTER TABLE people
+ADD PRIMARY KEY (id);
+
+ALTER TABLE addresses
+DROP PRIMARY KEY;
